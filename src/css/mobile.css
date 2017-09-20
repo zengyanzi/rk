@@ -1,0 +1,25 @@
+
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+
+}
+
+#mobileheader{
+
+  background: #F3F3F3;
+
+}
+#header{
+  padding: 10px;
+}
+.ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover {
+    color: #fc8d00 !important;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #F3F3F3 !important;
+}
+.ant-menu-item-selected {
+    color: #fc8d00 !important;
+}

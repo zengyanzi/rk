@@ -1,0 +1,84 @@
+
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+
+#pcheader{
+  width: 1374px;
+  height: 76px;
+  background: #F3F3F3;
+  padding:20px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  /*color: #fc8d00 !important;*/
+  text-decoration: none !important;
+}
+.ant-menu-item > a:hover {
+  text-decoration: none !important;
+}
+.ant-menu-horizontal {
+  border: 0 !important;
+  box-shadow: none !important;
+  z-index: 0 !important;
+}
+.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-horizontal > .ant-menu-submenu {
+  position: relative;
+  top: -5px !important;
+  float: left;
+
+}
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+    color: #fc8d00 !important;
+    border-bottom:none !important;
+}
+.ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu {
+    position: relative;
+    top: 1px;
+    float: left;
+    border-bottom: none !important;
+}
+#dropcontent{
+  text-align: center;
+}
+.ant-popover-inner-content{
+  padding:0 !important;
+}
+#dropcontent .dropli{
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+
+}
+#dropcontent .dropli .badgenm{
+  padding-left: 120px;
+}
+#dropcontent .dropul  a{
+  display: block;
+  min-width: 180px;
+  color: #535353;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+}
+#dropcontent .dropul  a:hover{
+  background-color: #F3F3F3;
+  display: block;
+}
+#dropcontent .dropul .divider{
+  margin-left: 20px;
+  width: 80%;
+  border-bottom: 1px solid #F3F3F3;
+}
